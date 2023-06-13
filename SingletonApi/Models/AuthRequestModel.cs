@@ -1,4 +1,4 @@
-﻿namespace SingletonApi.Models
+﻿namespace FactoryMethodApi.Models
 {
     public class AuthRequestModel
     {

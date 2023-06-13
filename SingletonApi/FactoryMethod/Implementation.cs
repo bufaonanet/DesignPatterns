@@ -1,4 +1,4 @@
-﻿namespace SingletonApi.FactoryMethod;
+﻿namespace FactoryMethodApi.FactoryMethod;
 
 public interface IAuthenticator
 {

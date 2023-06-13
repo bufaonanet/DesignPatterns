@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SingletonApi.FactoryMethod;
-using SingletonApi.Models;
+﻿using FactoryMethodApi.FactoryMethod;
+using FactoryMethodApi.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace SingletonApi.Controllers;
+namespace FactoryMethodApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]

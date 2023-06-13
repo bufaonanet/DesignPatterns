@@ -53,7 +53,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{DE44700E-10C3-40FF-BD6B-D1EB5A0BB5E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonApi", "SingletonApi\SingletonApi.csproj", "{84AD30A9-7C0A-4E85-A0AB-74E1F095081F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodApi", "SingletonApi\FactoryMethodApi.csproj", "{84AD30A9-7C0A-4E85-A0AB-74E1F095081F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{8BD910A8-5822-40E2-964A-E3D533846487}"
 EndProject
@@ -69,11 +69,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy2", "Strategy2\Stra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyApi", "StrategyApi\StrategyApi.csproj", "{8F435B86-76DA-418D-9B5F-65E0D794E41C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy3", "Strategy3\Strategy3.csproj", "{8C478733-51D0-427D-943F-A3B26DD55E93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy3", "Strategy3\Strategy3.csproj", "{8C478733-51D0-427D-943F-A3B26DD55E93}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{D2F30452-CC2B-47FD-BAEC-08AFA77E3243}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{EAB83D3E-874E-4AD8-A4B9-4238EC6DAB0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{EAB83D3E-874E-4AD8-A4B9-4238EC6DAB0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{F8ED14E7-6857-45E8-97EC-5D1E6A7F1FE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApps", "SampleApps", "{F7E6A6EB-A912-446E-9DBD-7B157AA69C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShopDesignPatterns", "AmpleApps\AwesomeShopDesignPatterns\AwesomeShopDesignPatterns.csproj", "{A023F90C-BEDE-4F83-89FD-3EB85152C3B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,10 @@ Global
 		{EAB83D3E-874E-4AD8-A4B9-4238EC6DAB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAB83D3E-874E-4AD8-A4B9-4238EC6DAB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAB83D3E-874E-4AD8-A4B9-4238EC6DAB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A023F90C-BEDE-4F83-89FD-3EB85152C3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A023F90C-BEDE-4F83-89FD-3EB85152C3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A023F90C-BEDE-4F83-89FD-3EB85152C3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A023F90C-BEDE-4F83-89FD-3EB85152C3B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -203,6 +213,8 @@ Global
 		{8C478733-51D0-427D-943F-A3B26DD55E93} = {B1B4F9D9-87C4-4CE5-AB46-15815340CFF3}
 		{D2F30452-CC2B-47FD-BAEC-08AFA77E3243} = {33E20BAF-0981-4927-82BD-B6DBDF3876D1}
 		{EAB83D3E-874E-4AD8-A4B9-4238EC6DAB0A} = {D2F30452-CC2B-47FD-BAEC-08AFA77E3243}
+		{F8ED14E7-6857-45E8-97EC-5D1E6A7F1FE4} = {9698B993-6FB2-4D3A-AE52-699D05C37068}
+		{A023F90C-BEDE-4F83-89FD-3EB85152C3B7} = {F7E6A6EB-A912-446E-9DBD-7B157AA69C80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4EF6D49-8E5D-4644-ADF6-16FE1935969F}
